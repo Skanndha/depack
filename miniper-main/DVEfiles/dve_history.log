@@ -1,0 +1,114 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key open_list_inside -value true
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/student/cadWorkDir/myProjects/synopsys/miniper-main/dump.vcd -design V1} {gui_open_db -file /home/student/cadWorkDir/myProjects/synopsys/miniper-main/dump.vcd.vpd -design V1} {gui_open_db -file /home/student/cadWorkDir/myProjects/synopsys/miniper-main/dump.vcd.vpd -design V2} {gui_open_db -file vcdplus.vpd} {gui_open_db -file /home/student/cadWorkDir/myProjects/synopsys/026/adld_aat1/AND_GATE/sim/Output.vcd -design V2}}
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /home/student/cadWorkDir/myProjects/synopsys/b10/DVEfiles/dve_checkpoint_11225_1.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1907
+gui_set_state_value -category Layout -key child_console_size_y -value 169
+gui_set_state_value -category Layout -key child_data_coltype -value 619
+gui_set_state_value -category Layout -key child_data_colvalue -value 595
+gui_set_state_value -category Layout -key child_data_colvariable -value 701
+gui_set_state_value -category Layout -key child_data_docknewline -value false
+gui_set_state_value -category Layout -key child_data_dockstate -value undocked
+gui_set_state_value -category Layout -key child_data_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_data_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_data_showstate -value maximized
+gui_set_state_value -category Layout -key child_data_size_x -value 1912
+gui_set_state_value -category Layout -key child_data_size_y -value 763
+gui_set_state_value -category Layout -key child_driver_size_x -value 1647
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 1059
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 855
+gui_set_state_value -category Layout -key child_hier_docknewline -value false
+gui_set_state_value -category Layout -key child_hier_dockstate -value undocked
+gui_set_state_value -category Layout -key child_hier_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_hier_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_hier_showstate -value maximized
+gui_set_state_value -category Layout -key child_hier_size_x -value 1912
+gui_set_state_value -category Layout -key child_hier_size_y -value 763
+gui_set_state_value -category Layout -key child_list_down -value 203
+gui_set_state_value -category Layout -key child_list_right -value 444
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 1919
+gui_set_state_value -category Layout -key child_schematic_size_y -value 739
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1912
+gui_set_state_value -category Layout -key child_source_size_y -value 763
+gui_set_state_value -category Layout -key child_watch_dockstate -value left
+gui_set_state_value -category Layout -key child_watch_size_x -value 199
+gui_set_state_value -category Layout -key child_watch_size_y -value 753
+gui_set_state_value -category Layout -key child_wave_colname -value 267
+gui_set_state_value -category Layout -key child_wave_colvalue -value 267
+gui_set_state_value -category Layout -key child_wave_left -value 539
+gui_set_state_value -category Layout -key child_wave_right -value 1313
+gui_set_state_value -category Layout -key main_pos_x -value 1
+gui_set_state_value -category Layout -key main_pos_y -value 40
+gui_set_state_value -category Layout -key main_size_x -value 1908
+gui_set_state_value -category Layout -key main_size_y -value 1052
+gui_set_state_value -category Layout -key stand_list_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_list_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_list_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_list_child_size_x -value 604
+gui_set_state_value -category Layout -key stand_list_child_size_y -value 348
+gui_set_state_value -category Layout -key stand_list_top_pos_y -value 28
+gui_set_state_value -category Layout -key stand_list_top_size_x -value 1099
+gui_set_state_value -category Layout -key stand_list_top_size_y -value 527
+gui_set_state_value -category Layout -key stand_schematic_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_schematic_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_schematic_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_schematic_child_size_x -value 1864
+gui_set_state_value -category Layout -key stand_schematic_child_size_y -value 895
+gui_set_state_value -category Layout -key stand_schematic_top_pos_x -value 60
+gui_set_state_value -category Layout -key stand_schematic_top_pos_y -value 53
+gui_set_state_value -category Layout -key stand_schematic_top_size_x -value 1919
+gui_set_state_value -category Layout -key stand_schematic_top_size_y -value 1052
+gui_set_state_value -category Layout -key stand_source_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_source_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_source_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_source_child_size_x -value 503
+gui_set_state_value -category Layout -key stand_source_child_size_y -value 199
+gui_set_state_value -category Layout -key stand_source_top_pos_x -value 570
+gui_set_state_value -category Layout -key stand_source_top_pos_y -value 526
+gui_set_state_value -category Layout -key stand_source_top_size_x -value 1068
+gui_set_state_value -category Layout -key stand_source_top_size_y -value 924
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1862
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 917
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 62
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 55
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1919
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 1052
+gui_set_state_value -category Driver -key driver_add_to_wave -value true
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value true
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/student/cadWorkDir/myProjects/synopsys/miniper-main/dump.vcd -design V1
+gui_list_expand -id  Hier.1   DePacketizer_tb
+gui_list_select -id Hier.1 -current_item_name DePacketizer_tb.dut -current_item_type Scope  -selected  { DePacketizer_tb.dut   }
+gui_list_select_all -id Data.1
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {DePacketizer_tb.dut.flitoutde[47:0]} DePacketizer_tb.dut.clk DePacketizer_tb.dut.reset {DePacketizer_tb.dut.data_out[15:0]} DePacketizer_tb.dut.packet_end DePacketizer_tb.dut.flag {DePacketizer_tb.dut.count[2:0]} } -insertionbar
+gui_wv_zoom_timerange -id  Wave.1 0 445
+gui_zoom -window Wave.1 -full
