@@ -18,7 +18,7 @@ reg [2:0]count;
         end else begin
             data_out <= flitoutde[31:16];
 	    count <= 0;
-		if((flitoutde[15:0] == 16'hFFFF) && flag) //fsm needed 
+	    if((flitoutde[15:0] == 16'hFFFF) && flag) //fsm needed 
 	    begin
             packet_end <= 1'b1;
 	    count <= count+1; // works for equal interval of time 
